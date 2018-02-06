@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tanvir.checkbox.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="110dp">
+
+        <TextView
+            android:id="@+id/TextViewHeadingXml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select your skill"
+            android:textSize="15dp"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="5dp"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/ChechBoxFootballXml"
+            android:paddingTop="5dp"
+            android:text="Football"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/ChechBoxCricketXml"
+            android:paddingTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cricket"/>
+        <CheckBox
+            android:id="@+id/ChechBoxBadmintonXml"
+            android:paddingTop="5dp"
+            android:text="Badminton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/ButtonXml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show"/>
+        <TextView
+            android:id="@+id/TextViewoutputXml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</LinearLayout>
