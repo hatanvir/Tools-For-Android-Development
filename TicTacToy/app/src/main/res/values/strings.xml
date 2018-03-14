@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic Tac Toe King</string>
+    <string name="title_home">Help</string>
+    <string name="title_dashboard">History</string>
+    <string name="Help_dis">Hi there!\n\nThis is Tic Tac Toy King game.The main logic of the game is, if any three blocks are covered by "player 1"
+    then the winner is "player 1".If the same task had finished "player 2" then the winner is "player 2".
+    The three blocks must be on the same line.If you have clicked 2 times in one block then the computer will cut 1 point from you.\nThe X shape is player 1 and O shape is player 2.That's it.Enjoy the game with our partner</string>
+</resources>
